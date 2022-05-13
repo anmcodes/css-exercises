@@ -1,9 +1,10 @@
 .para {
   color: hsl(0, 100%, 50%);
+  font-size:25px;
 }
 
 .small-para {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 #confirm-button {
