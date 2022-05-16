@@ -15,6 +15,7 @@ img {
 
 .flex-container {
   display:flex;
+  margin-top:32px;
 }
 
 /* do not edit this footer */
