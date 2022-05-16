@@ -18,6 +18,13 @@ img {
   margin-top:32px;
 }
 
+.contain {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .text {
   text-align: center;
 }
