@@ -57,6 +57,7 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-right:10px;
 }
 
 button.cancel {
@@ -82,7 +83,8 @@ button.cancel {
 
 .three {
   display:flex;
-  padding: 10px 30px;
+  padding: 10px;
+  margin-left:70px;
 }
 
 .header {
