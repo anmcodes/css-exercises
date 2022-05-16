@@ -26,6 +26,11 @@ input {
   margin-bottom: 16px;
 }
 
+.header {
+  display:flex;
+  justify-content: space-between;
+}
+
 ul {
   list-style: none;
 }
@@ -36,4 +41,10 @@ ul li {
 
 ul li a {
   text-decoration: none;
+  margin-right:20px;
+  color:black;
+}
+
+a:hover {
+  color:blue;
 }
