@@ -1,8 +1,11 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  /* Places all of the header content into a flex container  */
   display:flex;
+  /* Establishes horizontal space between the logo and menu items within the container */
   justify-content: space-around;
+  /* Pushess all header content to the center vertically*/
   align-items:center;
 }
 
@@ -12,17 +15,20 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  /* Adds space for logo between the top and bottom of the header background*/
   margin:10px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  /* Creates a container around list elements */
   display:flex;
 }
 
 li {
   flex:1;
+  /* Pushes each li element away from each other for space */
   margin: 0 10px;
 }
 
