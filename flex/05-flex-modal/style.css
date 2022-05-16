@@ -67,12 +67,16 @@ button.cancel {
 
 .one {
   display:flex;
+  justify-content: space-between;
+  padding:15px;
 }
 
 .two {
   display:flex;
+  padding:30px;
 }
 
 .three {
   display:flex;
+  padding: 10px 30px;
 }
