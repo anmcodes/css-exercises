@@ -3,7 +3,7 @@
   background: papayawhip;
   display:flex;
   justify-content: space-around;
-  align-items: center;
+  align-items:center;
 }
 
 .logo {
@@ -12,6 +12,7 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin:10px;
 }
 
 ul {
@@ -26,5 +27,4 @@ a {
   padding: 5px;
   /* this removes the line under the links */
   text-decoration: none;
-  flex:1;
 }
