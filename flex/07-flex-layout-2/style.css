@@ -15,6 +15,13 @@ body {
   font-size: 32px;
   font-weight: 900;
 }
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
 
 .footer {
   height: 72px;
@@ -25,6 +32,7 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  margin-top: -16px;
 }
 
 .card {
