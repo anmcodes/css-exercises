@@ -17,12 +17,20 @@ body {
   font-size: 32px;
   font-weight: 900;
 }
+
+
 ul li {
   list-style: none;
+  margin-bottom: 25px;
 }
 
 ul li a {
   text-decoration: none;
+  color:white;
+}
+
+a:hover {
+  color:red;
 }
 
 .footer {
@@ -34,7 +42,6 @@ ul li a {
 .sidebar {
   width: 300px;
   background: royalblue;
-  /*margin-top: -16px;*/
 }
 
 .card {
@@ -53,4 +60,4 @@ ul li a {
   display:flex;
   justify-content: space-between;
   margin:50px;
-}
+}*/
