@@ -21,6 +21,8 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  margin-right: 50px;
+  padding-right:50px;
 }
 
 
@@ -45,6 +47,22 @@ a:hover {
   margin-top: auto;
 }
 
+.flex {
+  display:flex;
+}
+
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  /*padding:25px;
+  margin: 20px;*/
+}
+
+.wrap {
+  display:flex;
+  /*flex-wrap:wrap;*/
+}
 
 /*
 .footer {
