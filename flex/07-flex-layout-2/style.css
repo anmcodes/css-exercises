@@ -21,6 +21,7 @@ body {
 
 .sidebar {
   width: 300px;
+  padding:16px;
   background: royalblue;
 }
 
@@ -45,15 +46,26 @@ a:hover {
 
 .wrap {
   display:flex;
-  padding: 25px 50px;
+  flex-wrap:wrap;
+  padding: 32px;
   gap:10px;
+}
+
+.set-one {
+  display:flex;
+  justify-content:space-between;
+
+}
+
+.set-two {
+  display:flex;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  padding:25px;
+  padding:25px 10px 200px 10px;
   margin: 20px;
 }
 
