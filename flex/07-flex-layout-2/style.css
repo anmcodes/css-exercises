@@ -48,13 +48,10 @@ a:hover {
   display:flex;
   flex-wrap:wrap;
   padding: 32px;
-  gap:10px;
 }
 
 .set-one {
   display:flex;
-  justify-content:space-between;
-
 }
 
 .set-two {
@@ -65,7 +62,7 @@ a:hover {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  padding: 25px 25px 250px 25px;
+  padding: 25px 25px 150px 25px;
   margin: 20px;
 }
 
