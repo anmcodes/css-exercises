@@ -43,6 +43,20 @@ a:hover {
   display:flex;
 }
 
+.wrap {
+  display:flex;
+  padding: 25px 50px;
+  gap:10px;
+}
+
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  padding:25px;
+  margin: 20px;
+}
+
 
 /*
 body {
