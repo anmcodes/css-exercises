@@ -39,6 +39,10 @@ a:hover {
   color:red;
 }
 
+.flex {
+  display:flex;
+}
+
 
 /*
 body {
