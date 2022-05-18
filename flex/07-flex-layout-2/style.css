@@ -19,6 +19,26 @@ body {
   font-weight: 900;
 }
 
+.sidebar {
+  width: 300px;
+  background: royalblue;
+}
+
+
+ul li {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+ul li a {
+  text-decoration: none;
+  color:white;
+}
+
+a:hover {
+  color:red;
+}
+
 
 /*
 body {
